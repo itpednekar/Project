@@ -1,0 +1,9 @@
+package com.app.pojos;
+
+public class Address {
+	private int addressId;
+	private String city;
+	private String state;
+	private String pinCode;
+
+}

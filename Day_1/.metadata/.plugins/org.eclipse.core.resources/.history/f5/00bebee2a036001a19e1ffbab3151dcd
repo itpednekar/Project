@@ -1,0 +1,25 @@
+package com.app.pojos;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Manager_Tb")
+public class Manger {
+	private Integer managerId;
+	public Manger() {
+		// TODO Auto-generated constructor stub
+	}
+	public Integer getManagerId() {
+		return managerId;
+	}
+	public void setManagerId(Integer managerId) {
+		this.managerId = managerId;
+	}
+	@Override
+	public String toString() {
+		return "Manger [managerId=" + managerId + "]";
+	}
+	
+
+}

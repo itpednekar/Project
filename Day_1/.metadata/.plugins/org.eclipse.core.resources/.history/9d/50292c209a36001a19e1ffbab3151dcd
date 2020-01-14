@@ -1,0 +1,12 @@
+package com.app.pojos;
+
+import java.util.Date;
+
+public class Feedback {
+	private int feedbackId;
+	private int userId;
+	private String desc;
+	private Date feedbackDate;
+	
+
+}

@@ -1,0 +1,13 @@
+package com.app.pojos;
+
+import java.util.Date;
+
+public class Transaction 
+{
+	private Integer tranId;
+	private TransactionType tranType;
+	private double advanceAmt;
+	private Date advanceDate;
+	private double remaningAmt;
+
+}

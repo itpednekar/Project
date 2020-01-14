@@ -1,0 +1,45 @@
+package com.app.pojos;
+
+import java.util.Date;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "Feedback_Tb")
+public class Feedback {
+	private Integer feedbackId;
+	private String desc;
+	private Date feedbackDate;
+	public Feedback() {
+		// TODO Auto-generated constructor stub
+	}
+	public Feedback(String desc, Date feedbackDate) {
+		super();
+		this.desc = desc;
+		this.feedbackDate = feedbackDate;
+	}
+	
+	
+	
+	@Column(name = "feedback_desc")
+	public String getDesc() {
+		return desc;
+	}
+	public void setDesc(String desc) {
+		this.desc = desc;
+	}
+	
+	@Column(name = "feedback_date")
+	@Temporal(TemporalType.DATE)
+	public Date getFeedbackDate() {
+		return feedbackDate;
+	}
+	public void setFeedbackDate(Date feedbackDate) {
+		this.feedbackDate = feedbackDate;
+	}
+	@Override
+	public String toString() {
+		return "Feedback [feedbackId=" + feedbackId + ", desc=" + desc + ", feedbackDate=" + feedbackDate + "]";
+	}
+	
+}

@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/sunbeam/Desktop/Project_coding/Day_1/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+905192513.index
+620001523.index
+2055741749.index
+4249217323.index
+199098910.index
+1082523448.index
